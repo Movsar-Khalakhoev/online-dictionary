@@ -1,0 +1,577 @@
+[
+  { "firstLangTranslation": "Привет", "secondLangTranslation": "Hello", "firstLangDescription": "Приветственное выражение", "secondLangDescription": "A greeting" },
+  { "firstLangTranslation": "Пока", "secondLangTranslation": "Goodbye", "firstLangDescription": "Прощальное выражение", "secondLangDescription": "A farewell" },
+  { "firstLangTranslation": "Дом", "secondLangTranslation": "House", "firstLangDescription": "Место для жилья", "secondLangDescription": "A place for living" },
+  {
+    "firstLangTranslation": "Автомобиль",
+    "secondLangTranslation": "Car",
+    "firstLangDescription": "Транспортное средство для перемещения",
+    "secondLangDescription": "A vehicle used for transportation"
+  },
+  {
+    "firstLangTranslation": "Кот",
+    "secondLangTranslation": "Cat",
+    "firstLangDescription": "Домашнее животное с мягкой шерстью и усами",
+    "secondLangDescription": "A domestic animal with soft fur and whiskers"
+  },
+  {
+    "firstLangTranslation": "Собака",
+    "secondLangTranslation": "Dog",
+    "firstLangDescription": "Домашнее животное с шерстью и лаящимся голосом",
+    "secondLangDescription": "A domestic animal with fur and a barking voice"
+  },
+  {
+    "firstLangTranslation": "Мама",
+    "secondLangTranslation": "Mom",
+    "firstLangDescription": "Женщина, рождавшая и воспитывавшая ребенка",
+    "secondLangDescription": "A woman who gives birth to and raises a child"
+  },
+  {
+    "firstLangTranslation": "Папа",
+    "secondLangTranslation": "Dad",
+    "firstLangDescription": "Мужчина, рождавший и воспитывавший ребенка",
+    "secondLangDescription": "A man who fathers and raises a child"
+  },
+  {
+    "firstLangTranslation": "Еда",
+    "secondLangTranslation": "Food",
+    "firstLangDescription": "Вещество, используемое для питания",
+    "secondLangDescription": "Substance used for nourishment"
+  },
+  {
+    "firstLangTranslation": "Напиток",
+    "secondLangTranslation": "Drink",
+    "firstLangDescription": "Жидкость, используемая для питья",
+    "secondLangDescription": "A liquid consumed for hydration"
+  },
+  {
+    "firstLangTranslation": "Соль",
+    "secondLangTranslation": "Salt",
+    "firstLangDescription": "Минеральное вещество, обычно используемое для приправления пищи",
+    "secondLangDescription": "A mineral substance commonly used to season food"
+  },
+  {
+    "firstLangTranslation": "Сахар",
+    "secondLangTranslation": "Sugar",
+    "firstLangDescription": "Сладкое вещество, обычно используемое в качестве подсластителя или ингредиента в пищевых продуктах",
+    "secondLangDescription": "A sweet substance commonly used as a sweetener or ingredient in food products"
+  },
+  {
+    "firstLangTranslation": "Чай",
+    "secondLangTranslation": "Tea",
+    "firstLangDescription": "Горячий напиток, приготовленный путем заваривания сухих листьев чайного куста",
+    "secondLangDescription": "A hot beverage prepared by steeping dried tea leaves"
+  },
+  {
+    "firstLangTranslation": "Кофе",
+    "secondLangTranslation": "Coffee",
+    "firstLangDescription": "Горячий напиток, приготовленный из обжаренных кофейных зерен и воды",
+    "secondLangDescription": "A hot beverage prepared from roasted coffee beans and water"
+  },
+  {
+    "firstLangTranslation": "Вино",
+    "secondLangTranslation": "Wine",
+    "firstLangDescription": "Алкогольный напиток, получаемый брожением сока винограда",
+    "secondLangDescription": "An alcoholic beverage obtained by fermenting grape juice"
+  },
+  {
+    "firstLangTranslation": "Пиво",
+    "secondLangTranslation": "Beer",
+    "firstLangDescription": "Алкогольный напиток, получаемый брожением зерновых солодов и хмеля",
+    "secondLangDescription": "An alcoholic beverage obtained by fermenting cereal grains and hops"
+  },
+  {
+    "firstLangTranslation": "Книга",
+    "secondLangTranslation": "Book",
+    "firstLangDescription": "Печатное издание с текстом и обложкой, предназначенное для чтения",
+    "secondLangDescription": "A printed publication with text and a cover, intended for reading"
+  },
+  {
+    "firstLangTranslation": "Журнал",
+    "secondLangTranslation": "Magazine",
+    "firstLangDescription": "Периодическое издание с статьями, фотографиями и другими материалами",
+    "secondLangDescription": "A periodical publication with articles, photographs, and other materials"
+  },
+  {
+    "firstLangTranslation": "Газета",
+    "secondLangTranslation": "Newspaper",
+    "firstLangDescription": "Печатное издание, содержащее новости, статьи и другую информацию",
+    "secondLangDescription": "A printed publication containing news, articles, and other information"
+  },
+  {
+    "firstLangTranslation": "Кино",
+    "secondLangTranslation": "Movie",
+    "firstLangDescription": "Форма развлечения, состоящая из фильма или фильмов",
+    "secondLangDescription": "A form of entertainment consisting of a film or films"
+  },
+  {
+    "firstLangTranslation": "Рисунок",
+    "secondLangTranslation": "Drawing",
+    "firstLangDescription": "Изображение, созданное путем рисования линий и форм на поверхности",
+    "secondLangDescription": "An image created by drawing lines and shapes on a surface"
+  },
+  {
+    "firstLangTranslation": "Песня",
+    "secondLangTranslation": "Song",
+    "firstLangDescription": "Музыкальная композиция, исполняемая голосом или инструментами",
+    "secondLangDescription": "A musical composition performed by voice or instruments"
+  },
+  {
+    "firstLangTranslation": "Танец",
+    "secondLangTranslation": "Dance",
+    "firstLangDescription": "Художественное выражение движений тела в ритме музыки",
+    "secondLangDescription": "Artistic expression of body movements in rhythm to music"
+  },
+  {
+    "firstLangTranslation": "Искусство",
+    "secondLangTranslation": "Art",
+    "firstLangDescription": "Выразительное и творческое проявление человеческого воображения и навыков",
+    "secondLangDescription": "Expressive and creative manifestation of human imagination and skills"
+  },
+  {
+    "firstLangTranslation": "Фильм",
+    "secondLangTranslation": "Film",
+    "firstLangDescription": "Видеозапись, показываемая на экране и состоящая из последовательности изображений",
+    "secondLangDescription": "A video recording displayed on a screen, consisting of a sequence of images"
+  },
+  {
+    "firstLangTranslation": "Театр",
+    "secondLangTranslation": "Theater",
+    "firstLangDescription": "Форма искусства, включающая живые выступления актеров на сцене",
+    "secondLangDescription": "An art form that includes live performances of actors on stage"
+  },
+  {
+    "firstLangTranslation": "Спорт",
+    "secondLangTranslation": "Sport",
+    "firstLangDescription": "Физическая активность, обычно соревновательного характера, требующая физической подготовки и мастерства",
+    "secondLangDescription": "Physical activity, usually of a competitive nature, requiring physical fitness and skill"
+  },
+  {
+    "firstLangTranslation": "Футбол",
+    "secondLangTranslation": "Football",
+    "firstLangDescription": "Командная игра, в которой две команды пытаются забить мяч в ворота противника",
+    "secondLangDescription": "A team game in which two teams try to score a ball into the opponent's goal"
+  },
+  {
+    "firstLangTranslation": "Баскетбол",
+    "secondLangTranslation": "Basketball",
+    "firstLangDescription": "Командная игра, в которой две команды пытаются забросить мяч в сетку соперника",
+    "secondLangDescription": "A team game in which two teams try to shoot a ball into the opponent's basket"
+  },
+  {
+    "firstLangTranslation": "Хоккей",
+    "secondLangTranslation": "Hockey",
+    "firstLangDescription": "Командная игра, в которой две команды пытаются забить шайбу в ворота противника, используя клюшки",
+    "secondLangDescription": "A team game in which two teams try to score a puck into the opponent's goal using sticks"
+  },
+  {
+    "firstLangTranslation": "Шахматы",
+    "secondLangTranslation": "Chess",
+    "firstLangDescription": "Настольная игра для двух игроков, в которой используются фигуры и стратегия для достижения победы",
+    "secondLangDescription": "A board game for two players that uses pieces and strategy to achieve victory"
+  },
+  {
+    "firstLangTranslation": "Путешествие",
+    "secondLangTranslation": "Travel",
+    "firstLangDescription": "Перемещение между различными местами, обычно для отдыха или исследования",
+    "secondLangDescription": "Movement between different places, usually for leisure or exploration"
+  },
+  {
+    "firstLangTranslation": "Пляж",
+    "secondLangTranslation": "Beach",
+    "firstLangDescription": "Песчаная или каменистая область у моря или озера",
+    "secondLangDescription": "Sandy or rocky area by the sea or a lake"
+  },
+  {
+    "firstLangTranslation": "Гора",
+    "secondLangTranslation": "Mountain",
+    "firstLangDescription": "Высокая природная образование с относительно крутыми склонами",
+    "secondLangDescription": "A high natural formation with relatively steep slopes"
+  },
+  {
+    "firstLangTranslation": "Река",
+    "secondLangTranslation": "River",
+    "firstLangDescription": "Большой поток воды, протекающий по каналу в земле",
+    "secondLangDescription": "A large stream of water that flows through a channel in the ground"
+  },
+  {
+    "firstLangTranslation": "Океан",
+    "secondLangTranslation": "Ocean",
+    "firstLangDescription": "Огромная соленая водная масса, покрывающая большую часть земной поверхности",
+    "secondLangDescription": "A vast saltwater body covering a large part of the Earth's surface"
+  },
+  {
+    "firstLangTranslation": "Лес",
+    "secondLangTranslation": "Forest",
+    "firstLangDescription": "Большая площадь с большим количеством деревьев",
+    "secondLangDescription": "A large area with a high density of trees"
+  },
+  {
+    "firstLangTranslation": "Цветок",
+    "secondLangTranslation": "Flower",
+    "firstLangDescription": "Растение с яркими лепестками, обычно с запахом",
+    "secondLangDescription": "A plant with bright petals, usually with a fragrance"
+  },
+  {
+    "firstLangTranslation": "Дерево",
+    "secondLangTranslation": "Tree",
+    "firstLangDescription": "Большое растение с стволом и ветвями, обычно имеющее листья или иглы",
+    "secondLangDescription": "A large plant with a trunk and branches, usually having leaves or needles"
+  },
+  {
+    "firstLangTranslation": "Земляника",
+    "secondLangTranslation": "Strawberry",
+    "firstLangDescription": "Сладкая ягода с красной кожицей и множеством мелких семян на поверхности",
+    "secondLangDescription": "A sweet fruit with a red skin and numerous small seeds on the surface"
+  },
+  {
+    "firstLangTranslation": "Яблоко",
+    "secondLangTranslation": "Apple",
+    "firstLangDescription": "Плод дерева с гладкой кожурой и сочной мякотью",
+    "secondLangDescription": "The fruit of a tree with smooth skin and juicy flesh"
+  },
+  {
+    "firstLangTranslation": "Банан",
+    "secondLangTranslation": "Banana",
+    "firstLangDescription": "Длинный плод с желтой кожурой и сладкой мякотью",
+    "secondLangDescription": "A long fruit with a yellow skin and sweet flesh"
+  },
+  {
+    "firstLangTranslation": "Апельсин",
+    "secondLangTranslation": "Orange",
+    "firstLangDescription": "Круглый плод с оранжевой кожурой и сочной мякотью",
+    "secondLangDescription": "A round fruit with an orange skin and juicy flesh"
+  },
+  {
+    "firstLangTranslation": "Морковь",
+    "secondLangTranslation": "Carrot",
+    "firstLangDescription": "Съедобный корень с оранжевой окраской и хрустящей текстурой",
+    "secondLangDescription": "An edible root with an orange color and crunchy texture"
+  },
+  {
+    "firstLangTranslation": "Картофель",
+    "secondLangTranslation": "Potato",
+    "firstLangDescription": "Съедобный клубень с белой мякотью и грубой коричневой кожурой",
+    "secondLangDescription": "An edible tuber with white flesh and rough brown skin"
+  },
+  {
+    "firstLangTranslation": "Молоко",
+    "secondLangTranslation": "Milk",
+    "firstLangDescription": "Белая жидкость, выделяемая железами молочных желез млекопитающих",
+    "secondLangDescription": "A white liquid secreted by the mammary glands of mammals"
+  },
+  {
+    "firstLangTranslation": "Хлеб",
+    "secondLangTranslation": "Bread",
+    "firstLangDescription": "Пищевой продукт, приготовленный из теста и выпеченный в духовке",
+    "secondLangDescription": "A food product made from dough and baked in an oven"
+  },
+  {
+    "firstLangTranslation": "Музыка",
+    "secondLangTranslation": "Music",
+    "firstLangDescription": "Искусство организации звуков в мелодии и ритме",
+    "secondLangDescription": "The art of organizing sounds into melody and rhythm"
+  },
+  {
+    "firstLangTranslation": "Фотография",
+    "secondLangTranslation": "Photography",
+    "firstLangDescription": "Искусство создания изображений с помощью камеры",
+    "secondLangDescription": "The art of creating images using a camera"
+  },
+  {
+    "firstLangTranslation": "Медведь",
+    "secondLangTranslation": "Bear",
+    "firstLangDescription": "Крупное млекопитающее с массивным телосложением и крупными лапами",
+    "secondLangDescription": "A large mammal with a massive build and large paws"
+  },
+  {
+    "firstLangTranslation": "Тигр",
+    "secondLangTranslation": "Tiger",
+    "firstLangDescription": "Крупное хищное млекопитающее с полосатой шкурой",
+    "secondLangDescription": "A large predatory mammal with striped fur"
+  },
+  {
+    "firstLangTranslation": "Крокодил",
+    "secondLangTranslation": "Crocodile",
+    "firstLangDescription": "Крупное пресмыкающееся с длинным телом и заостренной мордой",
+    "secondLangDescription": "A large reptile with a long body and a pointed snout"
+  },
+  {
+    "firstLangTranslation": "Слон",
+    "secondLangTranslation": "Elephant",
+    "firstLangDescription": "Крупное млекопитающее с длинным хоботом и большими бивнями",
+    "secondLangDescription": "A large mammal with a long trunk and large tusks"
+  },
+  {
+    "firstLangTranslation": "Заяц",
+    "secondLangTranslation": "Hare",
+    "firstLangDescription": "Млекопитающее с длинными задними лапами и длинными ушами",
+    "secondLangDescription": "A mammal with long hind legs and long ears"
+  },
+  {
+    "firstLangTranslation": "Курица",
+    "secondLangTranslation": "Chicken",
+    "firstLangDescription": "Домашняя птица, выращиваемая для мяса и яиц",
+    "secondLangDescription": "A domestic bird raised for meat and eggs"
+  },
+  {
+    "firstLangTranslation": "Утка",
+    "secondLangTranslation": "Duck",
+    "firstLangDescription": "Водоплавающая птица с клювом и перьями",
+    "secondLangDescription": "A waterfowl with a bill and feathers"
+  },
+  {
+    "firstLangTranslation": "Сова",
+    "secondLangTranslation": "Owl",
+    "firstLangDescription": "Птица хищница с большими глазами и перьями на голове",
+    "secondLangDescription": "A predatory bird with large eyes and feathers on the head"
+  },
+  {
+    "firstLangTranslation": "Лебедь",
+    "secondLangTranslation": "Swan",
+    "firstLangDescription": "Крупная водоплавающая птица с длинной шеей",
+    "secondLangDescription": "A large waterfowl with a long neck"
+  },
+  {
+    "firstLangTranslation": "Мед",
+    "secondLangTranslation": "Honey",
+    "firstLangDescription": "Сладкая пищевая продукция, производимая пчелами",
+    "secondLangDescription": "A sweet food product produced by bees"
+  },
+  {
+    "firstLangTranslation": "Вода",
+    "secondLangTranslation": "Water",
+    "firstLangDescription": "Прозрачная жидкость, необходимая для жизни",
+    "secondLangDescription": "A transparent liquid necessary for life"
+  },
+  {
+    "firstLangTranslation": "Огонь",
+    "secondLangTranslation": "Fire",
+    "firstLangDescription": "Явление тепла и света, вызванное горением",
+    "secondLangDescription": "The phenomenon of heat and light caused by combustion"
+  },
+  {
+    "firstLangTranslation": "Земля",
+    "secondLangTranslation": "Earth",
+    "firstLangDescription": "Третья планета от Солнца, на которой живут люди",
+    "secondLangDescription": "The third planet from the Sun, where humans live"
+  },
+  {
+    "firstLangTranslation": "Воздух",
+    "secondLangTranslation": "Air",
+    "firstLangDescription": "Смесь газов, окружающая Землю и необходимая для дыхания",
+    "secondLangDescription": "A mixture of gases surrounding the Earth and necessary for breathing"
+  },
+  {
+    "firstLangTranslation": "Солнце",
+    "secondLangTranslation": "Sun",
+    "firstLangDescription": "Центральная звезда Солнечной системы",
+    "secondLangDescription": "The central star of the Solar System"
+  },
+  {
+    "firstLangTranslation": "Луна",
+    "secondLangTranslation": "Moon",
+    "firstLangDescription": "Естественный спутник Земли",
+    "secondLangDescription": "The natural satellite of the Earth"
+  },
+  {
+    "firstLangTranslation": "Звезда",
+    "secondLangTranslation": "Star",
+    "firstLangDescription": "Блескующий объект в космосе, испускающий свет и тепло",
+    "secondLangDescription": "A shining object in space that emits light and heat"
+  },
+  {
+    "firstLangTranslation": "Планета",
+    "secondLangTranslation": "Planet",
+    "firstLangDescription": "Небесное тело, движущееся вокруг звезды",
+    "secondLangDescription": "A celestial body that orbits a star"
+  },
+  {
+    "firstLangTranslation": "Ветер",
+    "secondLangTranslation": "Wind",
+    "firstLangDescription": "Перемещение воздушных масс",
+    "secondLangDescription": "The movement of air masses"
+  },
+  {
+    "firstLangTranslation": "Медовуха",
+    "secondLangTranslation": "Mead",
+    "firstLangDescription": "Алкогольный напиток, изготовленный на основе меда",
+    "secondLangDescription": "An alcoholic beverage made from honey"
+  },
+  {
+    "firstLangTranslation": "Кровать",
+    "secondLangTranslation": "Bed",
+    "firstLangDescription": "Мебель для сна и отдыха",
+    "secondLangDescription": "Furniture for sleeping and resting"
+  },
+  {
+    "firstLangTranslation": "Стул",
+    "secondLangTranslation": "Chair",
+    "firstLangDescription": "Мебель для сидения, обычно с опорой для спины",
+    "secondLangDescription": "Furniture for sitting, usually with a backrest"
+  },
+  {
+    "firstLangTranslation": "Стол",
+    "secondLangTranslation": "Table",
+    "firstLangDescription": "Плоская поверхность, поддерживаемая ножками",
+    "secondLangDescription": "A flat surface supported by legs"
+  },
+  {
+    "firstLangTranslation": "Лампа",
+    "secondLangTranslation": "Lamp",
+    "firstLangDescription": "Источник искусственного света",
+    "secondLangDescription": "A source of artificial light"
+  },
+  {
+    "firstLangTranslation": "Телефон",
+    "secondLangTranslation": "Telephone",
+    "firstLangDescription": "Устройство для передачи голосовой связи на расстоянии",
+    "secondLangDescription": "A device for transmitting voice communication over a distance"
+  },
+  {
+    "firstLangTranslation": "Компьютер",
+    "secondLangTranslation": "Computer",
+    "firstLangDescription": "Электронное устройство для обработки информации",
+    "secondLangDescription": "An electronic device for processing information"
+  },
+  {
+    "firstLangTranslation": "Интернет",
+    "secondLangTranslation": "Internet",
+    "firstLangDescription": "Глобальная компьютерная сеть",
+    "secondLangDescription": "The global computer network"
+  },
+  {
+    "firstLangTranslation": "Поезд",
+    "secondLangTranslation": "Train",
+    "firstLangDescription": "Пассажирское транспортное средство, движущееся по рельсам",
+    "secondLangDescription": "A passenger transport vehicle that runs on rails"
+  },
+  {
+    "firstLangTranslation": "Самолет",
+    "secondLangTranslation": "Airplane",
+    "firstLangDescription": "Воздушное транспортное средство, способное летать",
+    "secondLangDescription": "An aerial vehicle capable of flying"
+  },
+  {
+    "firstLangTranslation": "Море",
+    "secondLangTranslation": "Sea",
+    "firstLangDescription": "Большая соленая водная поверхность",
+    "secondLangDescription": "A large saltwater body"
+  },
+  {
+    "firstLangTranslation": "Озеро",
+    "secondLangTranslation": "Lake",
+    "firstLangDescription": "Водоем, окруженный сушей",
+    "secondLangDescription": "A body of water surrounded by land"
+  },
+  {
+    "firstLangTranslation": "Рыба",
+    "secondLangTranslation": "Fish",
+    "firstLangDescription": "Животное с плавниками и жабрами, обитающее в воде",
+    "secondLangDescription": "An animal with fins and gills that lives in water"
+  },
+  {
+    "firstLangTranslation": "Птица",
+    "secondLangTranslation": "Bird",
+    "firstLangDescription": "Пернатое животное с клювом и перьями",
+    "secondLangDescription": "A feathered animal with a beak and feathers"
+  },
+  {
+    "firstLangTranslation": "Лев",
+    "secondLangTranslation": "Lion",
+    "firstLangDescription": "Крупное хищное млекопитающее с гривой у самцов",
+    "secondLangDescription": "A large predatory mammal with a mane in males"
+  },
+  {
+    "firstLangTranslation": "Зебра",
+    "secondLangTranslation": "Zebra",
+    "firstLangDescription": "Крупное животное с черно-белой полосатой шкурой",
+    "secondLangDescription": "A large animal with black and white striped fur"
+  },
+  {
+    "firstLangTranslation": "Пингвин",
+    "secondLangTranslation": "Penguin",
+    "firstLangDescription": "Полетное неполетное птица, живущая в холодных водах",
+    "secondLangDescription": "A flightless bird that lives in cold waters"
+  },
+  {
+    "firstLangTranslation": "Бабочка",
+    "secondLangTranslation": "Butterfly",
+    "firstLangDescription": "Насекомое с крыльями, покрытыми красивыми узорами",
+    "secondLangDescription": "An insect with wings covered in beautiful patterns"
+  },
+  {
+    "firstLangTranslation": "Солнцезащитные очки",
+    "secondLangTranslation": "Sunglasses",
+    "firstLangDescription": "Аксессуар для защиты глаз от солнечных лучей",
+    "secondLangDescription": "An accessory for protecting the eyes from sunlight"
+  },
+  {
+    "firstLangTranslation": "Велосипед",
+    "secondLangTranslation": "Bicycle",
+    "firstLangDescription": "Транспортное средство с двумя колесами, приводимое в движение педалями",
+    "secondLangDescription": "A vehicle with two wheels propelled by pedals"
+  },
+  {
+    "firstLangTranslation": "Фотоаппарат",
+    "secondLangTranslation": "Camera",
+    "firstLangDescription": "Устройство для фотографирования",
+    "secondLangDescription": "A device for taking photographs"
+  },
+  {
+    "firstLangTranslation": "Шорты",
+    "secondLangTranslation": "Shorts",
+    "firstLangDescription": "Полуприлегающие штаны короткой длины",
+    "secondLangDescription": "Loose-fitting short pants"
+  },
+  {
+    "firstLangTranslation": "Платье",
+    "secondLangTranslation": "Dress",
+    "firstLangDescription": "Женская одежда с верхней частью и юбкой",
+    "secondLangDescription": "Women's clothing with a top and a skirt"
+  },
+  {
+    "firstLangTranslation": "Рубашка",
+    "secondLangTranslation": "Shirt",
+    "firstLangDescription": "Мужская или женская одежда для верхней части тела",
+    "secondLangDescription": "Men's or women's clothing for the upper body"
+  },
+  {
+    "firstLangTranslation": "Сумка",
+    "secondLangTranslation": "Bag",
+    "firstLangDescription": "Предмет для хранения и переноски вещей",
+    "secondLangDescription": "An item for storing and carrying things"
+  },
+  { "firstLangTranslation": "Шляпа", "secondLangTranslation": "Hat", "firstLangDescription": "Головной убор", "secondLangDescription": "A headwear" },
+  { "firstLangTranslation": "Ноутбук", "secondLangTranslation": "Laptop", "firstLangDescription": "Портативный компьютер", "secondLangDescription": "A portable computer" },
+  {
+    "firstLangTranslation": "Футболка",
+    "secondLangTranslation": "T-shirt",
+    "firstLangDescription": "Майка с короткими рукавами",
+    "secondLangDescription": "A shirt with short sleeves"
+  },
+  {
+    "firstLangTranslation": "Сапоги",
+    "secondLangTranslation": "Boots",
+    "firstLangDescription": "Высокая обувь, защищающая ноги",
+    "secondLangDescription": "High footwear that protects the feet"
+  },
+  {
+    "firstLangTranslation": "Гитара",
+    "secondLangTranslation": "Guitar",
+    "firstLangDescription": "Струнный музыкальный инструмент",
+    "secondLangDescription": "A stringed musical instrument"
+  },
+  {
+    "firstLangTranslation": "Кепка",
+    "secondLangTranslation": "Cap",
+    "firstLangDescription": "Головной убор с козырьком",
+    "secondLangDescription": "A headwear with a visor"
+  },
+  {
+    "firstLangTranslation": "Часы",
+    "secondLangTranslation": "Watch",
+    "firstLangDescription": "Устройство для измерения времени",
+    "secondLangDescription": "A device for measuring time"
+  }
+]
