@@ -1,8 +1,12 @@
-export interface Translation {
+export type Translation = {
   id: string;
   firstLangTranslation: string;
+  firstLangDescription: string;
   secondLangTranslation: string;
-}
+  secondLangDescription: string;
+};
+
+export type DropdownTranslation = Pick<Translation, "id" | "firstLangTranslation" | "secondLangTranslation">;
 
 export const Lang = {
   Russian: "FirstLang",

@@ -25,11 +25,12 @@ const useStyles = createStyles(() => ({
 
 export function TranslationsDropdown() {
   const { classes } = useStyles();
-  const { data, loading } = useStore((state) => state.fetchTranslations);
+  const { data, loading } = useStore((state) => state.fetchDropdownTranslations);
   const inputValue = useStore((state) => state.inputValue);
   const selectedLang = useStore((state) => state.selectedLang);
   const setInputValue = useStore((state) => state.setInputValue);
   const setSelectedLang = useStore((state) => state.setSelectedLang);
+  const fetchTranslationsList = useStore((state) => state.fetchTranslationsList.execute);
   const mappedData: SelectItem[] = data.map((item) => ({ value: item.id, label: selectedLang === Lang.Russian ? item.firstLangTranslation : item.secondLangTranslation }));
 
   return (
@@ -41,9 +42,16 @@ export function TranslationsDropdown() {
           icon={<Loader size={20} visibility={loading ? "visible" : "hidden"} />}
           searchable
           searchValue={inputValue}
-          onSearchChange={setInputValue}
+          onChange={fetchTranslationsList}
+          onSearchChange={(str) => {
+            console.log("str", str);
+            return setInputValue(str);
+          }}
+          hoverOnSearchChange={false}
+          filterDataOnExactSearchMatch={false}
           placeholder="Введите слово"
           itemComponent={DropdownItem}
+          nothingFound="Ничего не найдено"
         />
       </div>
       <div className={classes.segmentedControlContainer}>
