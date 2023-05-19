@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Language, DropdownTranslation, Translation } from "types";
 
-const BASE_URL = "http://81.200.150.21";
+const BASE_URL = "http://81.200.150.21:3000";
 
 export async function fetchDropdownTranslations(part: string, translateFrom: Language, limit: number, offset: number): Promise<DropdownTranslation[]> {
   const response = await axios.get<DropdownTranslation[]>(`/translations/dropdown`, {
