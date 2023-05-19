@@ -1,12 +1,12 @@
-import { fetchDropdownTranslations, fetchTranslationsList } from "api/index";
-import { Lang, DropdownTranslation, Translation } from "types";
+import { fetchDropdownTranslations, fetchTranslationsList } from "api";
+import { Language, DropdownTranslation, Translation } from "types";
 import { createStore } from "utils";
 
 interface Store {
   inputValue: string;
-  selectedLang: Lang;
+  selectedLanguage: Language;
   setInputValue(value: string): void;
-  setSelectedLang(lang: Lang): void;
+  setSelectedLanguage(lang: Language): void;
   fetchDropdownTranslations: {
     execute(): void;
     data: DropdownTranslation[];
@@ -22,7 +22,7 @@ interface Store {
 
 export const useStore = createStore<Store>((set, get) => ({
   inputValue: "",
-  selectedLang: Lang.English,
+  selectedLanguage: Language.English,
   setInputValue(value: string) {
     const prevTimeout = get().fetchDropdownTranslations.timeout;
     if (prevTimeout !== null) clearTimeout(prevTimeout);
@@ -38,9 +38,9 @@ export const useStore = createStore<Store>((set, get) => ({
       state.fetchDropdownTranslations.timeout = timeout;
     });
   },
-  setSelectedLang(lang) {
+  setSelectedLanguage(lang) {
     set((state) => {
-      state.selectedLang = lang;
+      state.selectedLanguage = lang;
     });
     get().fetchDropdownTranslations.execute();
   },
@@ -50,7 +50,7 @@ export const useStore = createStore<Store>((set, get) => ({
         state.fetchDropdownTranslations.loading = true;
         state.fetchDropdownTranslations.timeout = null;
       });
-      fetchDropdownTranslations(get().inputValue, get().selectedLang, 100, 0)
+      fetchDropdownTranslations(get().inputValue, get().selectedLanguage, 100, 0)
         .then((data) => {
           set((state) => {
             state.fetchDropdownTranslations.data = data;
@@ -72,7 +72,7 @@ export const useStore = createStore<Store>((set, get) => ({
       set((state) => {
         state.fetchTranslationsList.loading = true;
       });
-      fetchTranslationsList(get().inputValue, get().selectedLang, 100, 0)
+      fetchTranslationsList(get().inputValue, get().selectedLanguage, 100, 0)
         .then((data) => {
           set((state) => {
             state.fetchTranslationsList.data = data;

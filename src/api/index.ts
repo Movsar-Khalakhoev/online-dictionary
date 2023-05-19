@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Lang, DropdownTranslation, Translation } from "types";
+import { Language, DropdownTranslation, Translation } from "types";
 
 const BASE_URL = "http://81.200.150.21";
 

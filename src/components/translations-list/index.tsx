@@ -16,7 +16,7 @@ const useStyles = createStyles(() => ({
 
 export function TranslationsList() {
   const { data, loading } = useStore((state) => state.fetchTranslationsList);
-  const selectedLang = useStore((state) => state.selectedLang);
+  const selectedLang = useStore((state) => state.selectedLanguage);
   const { classes } = useStyles();
 
   return (

@@ -1,6 +1,6 @@
 import { Loader, SegmentedControl, Select, SelectItem, Text, createStyles } from "@mantine/core";
 import { useStore } from "store";
-import { Lang } from "types";
+import { Language } from "types";
 import { DropdownItem } from "./dropdown-item";
 
 const useStyles = createStyles(() => ({
@@ -27,11 +27,11 @@ export function TranslationsDropdown() {
   const { classes } = useStyles();
   const { data, loading } = useStore((state) => state.fetchDropdownTranslations);
   const inputValue = useStore((state) => state.inputValue);
-  const selectedLang = useStore((state) => state.selectedLang);
+  const selectedLang = useStore((state) => state.selectedLanguage);
   const setInputValue = useStore((state) => state.setInputValue);
-  const setSelectedLang = useStore((state) => state.setSelectedLang);
+  const setSelectedLang = useStore((state) => state.setSelectedLanguage);
   const fetchTranslationsList = useStore((state) => state.fetchTranslationsList.execute);
-  const mappedData: SelectItem[] = data.map((item) => ({ value: item.id, label: selectedLang === Lang.Russian ? item.firstLangTranslation : item.secondLangTranslation }));
+  const mappedData: SelectItem[] = data.map((item) => ({ value: item.id, label: selectedLang === Language.Russian ? item.firstLangTranslation : item.secondLangTranslation }));
 
   return (
     <div className={classes.container}>
@@ -61,8 +61,8 @@ export function TranslationsDropdown() {
           className={classes.segmentedControl}
           onChange={setSelectedLang}
           data={[
-            { label: "англ", value: Lang.English },
-            { label: "рус", value: Lang.Russian },
+            { label: "англ", value: Language.English },
+            { label: "рус", value: Language.Russian },
           ]}
         />
       </div>

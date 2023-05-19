@@ -8,9 +8,9 @@ export type Translation = {
 
 export type DropdownTranslation = Pick<Translation, "id" | "firstLangTranslation" | "secondLangTranslation">;
 
-export const Lang = {
+export const Language = {
   Russian: "FirstLang",
   English: "SecondLang",
 } as const;
 
-export type Lang = (typeof Lang)[keyof typeof Lang];
+export type Language = (typeof Language)[keyof typeof Language];
