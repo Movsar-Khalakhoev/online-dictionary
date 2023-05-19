@@ -1,8 +1,8 @@
 version: "3"
 
 services:
-  main-app:
-    container_name: main-app
+  frontend:
+    container_name: frontend
     build:
       context: .
       dockerfile: Dockerfile
